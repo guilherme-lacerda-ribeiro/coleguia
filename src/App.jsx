@@ -1,13 +1,13 @@
 import './App.css'
-import Header from './Header'
-import Menu from './Menu'
+import Header from './pages/Header'
+import Menu from './components/Menu'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Skills from './Skills'
 import Experience from './Experience'
 import Contact from './Contact'
-import DarkMode from './DarkMode'
-import Footer from './Footer'
+import DarkMode from './components/DarkMode'
+import Footer from './pages/Footer'
 import { useState } from 'react'
 
 function App() {
