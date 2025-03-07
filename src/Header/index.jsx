@@ -1,9 +1,9 @@
-const Header = () => {
-  return (<>
-    <h2>Guilherme - Software Engineer</h2>
-    <h3>Construindo soluções eficientes e escaláveis com tecnologia.</h3>
-    <i>Foto profissional ou avatar técnico</i>
-  </>
+const Header = ({ children }) => {
+  return (
+    <header className="flex justify-between">
+      <h2>guilherme-lacerda-ribeiro</h2>
+      {children}
+    </header>
   )
 }
 export default Header
