@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './pages/Header'
 import Menu from './components/Menu'
+import Hello from './pages/Hello'
 import DarkMode from './components/DarkMode'
 import Footer from './pages/Footer'
 import { useState } from 'react'
@@ -16,9 +17,10 @@ function App() {
             <Menu />
           </Header>
         </header>
-        <main>
-          
-          <DarkMode setDarkMode={setDarkMode} />
+        <main className='w-full h-full'>
+          <Hello>
+            {/* <DarkMode setDarkMode={setDarkMode} /> */}
+          </Hello>
         </main>
         <footer className='border-t border-slate-600'>
           <Footer />
