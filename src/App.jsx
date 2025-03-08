@@ -17,6 +17,7 @@ function App() {
           </Header>
         </header>
         <main>
+          
           <DarkMode setDarkMode={setDarkMode} />
         </main>
         <footer className='border-t border-slate-600'>
