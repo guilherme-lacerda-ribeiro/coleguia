@@ -1,7 +1,4 @@
-import { useState } from "react"
-
-const Menu = () => {
-  const [open, setOpen] = useState(false)
+const Menu = ({open, setOpen}) => {
   const handleOpenMenu = () => setOpen(prev => !prev)
   return (
     <button onClick={handleOpenMenu}>
