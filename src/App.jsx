@@ -1,11 +1,10 @@
 import './App.css'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Header from './pages/Header'
-import Hello from './pages/Hello'
 import Footer from './pages/Footer'
 import Menu from './pages/Menu'
 import MenuIcon from './components/MenuIcon'
-import DarkMode from './components/DarkMode'
+import AppRoutes from './routes'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -20,9 +19,8 @@ function App() {
           </Header>
         </header>
         <main className='relative size-full overflow-hidden'>
-          <Menu open={open} />
-          <Hello />
-          {/* <DarkMode setDarkMode={setDarkMode} /> */}
+          <Menu open={open} setOpen={setOpen} setDarkMode={setDarkMode}/>
+          <AppRoutes />
         </main>
         <footer className='border-t border-slate-600'>
           <Footer />

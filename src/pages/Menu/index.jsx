@@ -1,4 +1,8 @@
-const Menu = ({ open }) => {
+import { Link } from 'react-router-dom';
+import DarkMode from '../../components/DarkMode'
+
+const Menu = ({ open, setOpen, setDarkMode }) => {
+  const handleLinkClick = () => setOpen(false)
   return (
     <nav className={`absolute inset-0 bg-slate-950 
       transition-all duration-300 ease-out transform
@@ -12,16 +16,19 @@ const Menu = ({ open }) => {
 
       <ul className="pt-4 flex flex-col gap-4">
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _hello
+          <Link onClick={handleLinkClick} to="/">_hello</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _about-me
+          <Link onClick={handleLinkClick} to="/about">_about-me</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _projects
+          <Link onClick={handleLinkClick} to="/projects">_projects</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _contact-me
+          <Link onClick={handleLinkClick} to="/contact">_contact-me</Link>
+        </li>
+        <li className="px-7 pb-4 border-b border-slate-600 ">
+          {/* <DarkMode setDarkMode={setDarkMode} /> */}
         </li>
       </ul>
     </nav>
