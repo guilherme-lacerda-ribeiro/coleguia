@@ -1,17 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import { Routes, Route } from "react-router-dom";
+import Hello from "./pages/Hello";
+import AboutMe from "./pages/AboutMe";
 import NotFound from "./pages/NotFound";
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Hello />} />
+      <Route path="/about" element={<AboutMe />} />
+      <Route path="/projects" element={<AboutMe />} />
+      <Route path="/contact" element={<AboutMe />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 };
 

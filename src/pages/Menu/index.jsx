@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import DarkMode from '../../components/DarkMode'
 
 const Menu = ({ open, setDarkMode }) => {
@@ -14,16 +15,16 @@ const Menu = ({ open, setDarkMode }) => {
 
       <ul className="pt-4 flex flex-col gap-4">
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _hello
+          <Link to="/">_hello</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _about-me
+          <Link to="/about">_about-me</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _projects
+          <Link to="/projects">_projects</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
-          _contact-me
+          <Link to="/contact">_contact-me</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
           {/* <DarkMode setDarkMode={setDarkMode} /> */}
