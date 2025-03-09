@@ -5,7 +5,6 @@ import Hello from './pages/Hello'
 import Footer from './pages/Footer'
 import Menu from './pages/Menu'
 import MenuIcon from './components/MenuIcon'
-import DarkMode from './components/DarkMode'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
