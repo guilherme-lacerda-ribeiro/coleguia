@@ -1,6 +1,0 @@
-@import "tailwindcss";
-
-button {
-  @apply ring rounded-full p-2 shadow-lg;
-  @apply ring-gray-900 dark:ring-gray-600 bg-gray-100 dark:bg-gray-800;
-}

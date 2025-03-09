@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './DarkMode.css'
 
 const DarkMode = ({setDarkMode}) => {
   const [icon, setIcon] = useState('🌑')
