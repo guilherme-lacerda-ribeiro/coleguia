@@ -15,19 +15,19 @@ const Menu = ({ open, setOpen, setDarkMode }) => {
       </h3>
 
       <ul className="pt-4 flex flex-col gap-4">
-        <li className="px-7 pb-4 border-b border-slate-600 ">
+        <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           <Link onClick={handleLinkClick} to="/">_hello</Link>
         </li>
-        <li className="px-7 pb-4 border-b border-slate-600 ">
+        <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           <Link onClick={handleLinkClick} to="/about">_about-me</Link>
         </li>
-        <li className="px-7 pb-4 border-b border-slate-600 ">
+        <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           <Link onClick={handleLinkClick} to="/projects">_projects</Link>
         </li>
-        <li className="px-7 pb-4 border-b border-slate-600 ">
+        <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           <Link onClick={handleLinkClick} to="/contact">_contact-me</Link>
         </li>
-        <li className="px-7 pb-4 border-b border-slate-600 ">
+        <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           {/* <DarkMode setDarkMode={setDarkMode} /> */}
         </li>
       </ul>
