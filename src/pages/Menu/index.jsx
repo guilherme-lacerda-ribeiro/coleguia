@@ -1,4 +1,6 @@
-const Menu = ({ open }) => {
+import DarkMode from '../../components/DarkMode'
+
+const Menu = ({ open, setDarkMode }) => {
   return (
     <nav className={`absolute inset-0 bg-slate-950 
       transition-all duration-300 ease-out transform
@@ -22,6 +24,9 @@ const Menu = ({ open }) => {
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 ">
           _contact-me
+        </li>
+        <li className="px-7 pb-4 border-b border-slate-600 ">
+          {/* <DarkMode setDarkMode={setDarkMode} /> */}
         </li>
       </ul>
     </nav>

@@ -20,9 +20,8 @@ function App() {
           </Header>
         </header>
         <main className='relative size-full overflow-hidden'>
-          <Menu open={open} />
+          <Menu open={open} setDarkMode={setDarkMode}/>
           <Hello />
-          {/* <DarkMode setDarkMode={setDarkMode} /> */}
         </main>
         <footer className='border-t border-slate-600'>
           <Footer />
