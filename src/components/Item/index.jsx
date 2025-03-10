@@ -8,7 +8,7 @@ const Item = ({ name, fillColor, hideContent, handleHideContent, children }) => 
     setItemOpen(prev => !prev)
     handleHideContent()
   }
-  
+
   return (
     <li className="flex flex-col gap-2">
       <div className="flex gap-2" onClick={handleClickItem}>
