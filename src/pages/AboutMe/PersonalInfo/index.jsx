@@ -19,7 +19,7 @@ const PersonalInfo = () => {
 
       <div className={`transition-all duration-300 ease-in-out overflow-hidden ${sectionOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`} >
         <ul className="bg-slate-950 p-5 flex flex-col gap-4">
-          <Item fillColor="fill-rose-400">bio<Bio /></Item>
+          <Item fillColor="fill-rose-400">bio</Item>
           <Item fillColor="fill-teal-400">interests</Item>
           <Item fillColor="fill-indigo-500">education</Item>
         </ul>
