@@ -2,6 +2,7 @@ import { useState } from "react";
 import SectionArrow from "../../../components/SectionArrow";
 import Item from "../../../components/Item";
 import Bio from "../Bio";
+import Interests from "../Interests";
 
 const PersonalInfo = () => {
   const [sectionOpen, setSectionOpen] = useState(false)
@@ -19,9 +20,13 @@ const PersonalInfo = () => {
 
       <div className={`transition-all duration-300 ease-in-out overflow-hidden ${sectionOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`} >
         <ul className="bg-slate-950 p-5 flex flex-col gap-4">
-          <Item fillColor="fill-rose-400">bio</Item>
-          <Item fillColor="fill-teal-400">interests</Item>
-          <Item fillColor="fill-indigo-500">education</Item>
+          <Item name='bio' fillColor="fill-rose-400">
+            <Bio />
+          </Item>
+          <Item name='interests' fillColor="fill-teal-400">
+            <Interests />
+          </Item>
+          <Item name='education' fillColor="fill-indigo-500"></Item>
         </ul>
       </div>
 
