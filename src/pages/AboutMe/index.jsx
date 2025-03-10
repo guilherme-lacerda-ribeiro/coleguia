@@ -14,9 +14,6 @@ const AboutMe = () => {
         <section className="bg-slate-700 px-5">
           hobbies
         </section>
-        <section className="bg-slate-700 px-5">
-          contacts
-        </section>
       </div>
     </>
   );
