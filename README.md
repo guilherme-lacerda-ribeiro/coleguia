@@ -13,6 +13,8 @@ Professional website with portfolio.
 ## Resources
 - <img src="https://www.remixicon.com/img/remixicon-logo.svg" width="16"> [Remix Icon](https://remixicon.com/)
 
+- <img src="https://maxst.icons8.com/vue-static/icon/favicon/icons8_fav_32%C3%9732.png" width="16"> [Icons 8](https://icons8.com/icons)
+
 - <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg" width="16"> [Google Fonts](https://fonts.google.com/specimen/Fira+Code)
 
 - <img src="https://static.figma.com/app/icon/1/favicon.svg" width="16"> [Figma Template](https://www.figma.com/community/file/1100794861710979147/portfolio-for-developers-concept-v-2-1)

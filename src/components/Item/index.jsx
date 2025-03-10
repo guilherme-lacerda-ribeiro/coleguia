@@ -17,7 +17,7 @@ const Item = ({ name, fillColor, hideContent, handleHideContent, children }) => 
         {name}
       </div>
 
-      <div id='item-content' className={`px-5 py-2 ${hideContent ? 'hidden' : ''}`}>
+      <div id='item-content' className={`px-5 py-2 text-sm ${hideContent ? 'hidden' : ''}`}>
         {children}
       </div>
     </li>
