@@ -1,4 +1,5 @@
 import PersonalInfo from "./PersonalInfo";
+import ProfessionalInfo from "./ProfessionalInfo";
 
 const AboutMe = () => {
   return (
@@ -8,11 +9,8 @@ const AboutMe = () => {
         <section className="bg-slate-700 pt-3">
           <PersonalInfo />
         </section>
-        <section className="bg-slate-700 px-5">
-          professional-info
-        </section>
-        <section className="bg-slate-700 px-5">
-          hobbies
+        <section className="bg-slate-700 pt-3">
+          <ProfessionalInfo />
         </section>
       </div>
     </>
