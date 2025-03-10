@@ -1,9 +1,9 @@
 import { useState } from "react";
 import SectionArrow from "../../../components/SectionArrow";
 import Item from "../../../components/Item";
-import Bio from "../Bio";
-import Interests from "../Interests";
-import Education from "../Education";
+import Bio from "./Bio";
+import Interests from "./Interests";
+import Education from "./Education";
 import ItemContainer from "../../../components/ItemContainer";
 
 const PersonalInfo = () => {
