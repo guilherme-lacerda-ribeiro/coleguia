@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ProjectFilter from './ProjectFilter'
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   const [projects, setProjects] = useState([])
@@ -24,9 +25,9 @@ const Projects = () => {
           <ProjectFilter setTechsFilter={setTechsFilter} />
         </section>
         <section id='project-list'>
-          <ul>
+          <ul className='pt-3'>
             {
-              projects.map(p => <li>{p.name}</li>)
+              projects.map(p => <li> <ProjectCard project={p}/> </li>)
             }
           </ul>
         </section>

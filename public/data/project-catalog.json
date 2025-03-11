@@ -2,15 +2,10 @@
   {
     "id": 1,
     "name": "coleguia",
-    "desc": "Online welcome and portfolio",
-    "thumbnail": "",
-    "techs": [
-      "html",
-      "css",
-      "react",
-      "vite",
-      "tailwind",
-      "javascript"
-    ]
+    "shortDesc": "_portfolio",
+    "desc": "Online welcome and portfolio.",
+    "thumbnail": "/thumbnails/coleguia.png",
+    "url": "https://github.com/guilherme-lacerda-ribeiro/coleguia",
+    "techs": ["html", "css", "react", "vite", "tailwind", "javascript"]
   }
 ]
