@@ -1,11 +1,39 @@
 [
   {
     "id": 1,
-    "name": "html",
+    "name": "HTML",
     "icon": "/icon/html.svg"
   },{
+    "id": 3,
+    "name": "Vanilla JS",
+    "icon": "/icon/javascript.svg"
+  },{
+    "id": 9,
+    "name": "JQuery",
+    "icon": "/icon/jquery.svg"
+  },{
+    "id": 8,
+    "name": "React",
+    "icon": "/icon/react.svg"
+  },{
+    "id": 6,
+    "name": "Vite",
+    "icon": "/icon/vite.svg"
+  },{
+    "id": 4,
+    "name": "PHP",
+    "icon": "/icon/php.svg"
+  },{
+    "id": 7,
+    "name": "Laravel",
+    "icon": "/icon/laravel.svg"
+  },{
     "id": 2,
-    "name": "css",
+    "name": "CSS",
     "icon": "/icon/css.svg"
+  },{
+    "id": 5,
+    "name": "Tailwindcss",
+    "icon": "/icon/tailwind.svg"
   }
 ]

@@ -20,7 +20,10 @@ const ProjectFilter = ({ setTechsFilter }) => {
 
               <label className="flex items-center space-x-2 cursor-pointer">
                 <input type="checkbox" id={`tech_${t.id}`} value={t.id} className="peer hidden" />
-                <div className="size-5 border border-gray-400 rounded-sm flex items-center justify-center peer-checked:bg-slate-500 peer-checked:border-slate-700 relative peer-checked:after:content-['✔'] peer-checked:after:text-white peer-checked:after:text-xs" />
+                <div className="size-5 border border-gray-400 rounded-sm flex items-center justify-center 
+                peer-checked:bg-slate-500 peer-checked:border-slate-700
+                  peer-checked:after:content-['✔'] peer-checked:after:text-white peer-checked:after:text-xs" />
+                
                 <img src={t.icon} className="size-6" />
                 <span>{t.name}</span>
               </label>

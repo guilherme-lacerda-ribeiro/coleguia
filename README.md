@@ -20,3 +20,5 @@ Professional website with portfolio.
 - <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg" alt="Google Fonts Icon" width="16"> [Google Fonts](https://fonts.google.com/specimen/Fira+Code)
 
 - <img src="https://static.figma.com/app/icon/1/favicon.svg" alt="Figma Icon" width="16"> [Figma Template](https://www.figma.com/community/file/1100794861710979147/portfolio-for-developers-concept-v-2-1)
+
+- <img src="https://www.svgrepo.com/favicon.ico" alt="SVG Repo Icon" width="16" /> [SVG Repo](https://www.svgrepo.com/)
