@@ -1,7 +1,36 @@
+import { useEffect, useState } from 'react';
+import ProjectFilter from './ProjectFilter'
+
 const Projects = () => {
+  const [projects, setProjects] = useState([])
+  const [techsFilter, setTechsFilter] = useState([])
+
+  useEffect(() => {
+    fetch('/data/project-catalog.json')
+      .then(r => r.json())
+      .then(data => setProjects(data))
+      .catch(console.log)
+  }, [])
+
+  useEffect(() => {
+    console.log(techsFilter)
+  }, [techsFilter])
+
   return (
     <>
-      Projects
+      <h2 className="px-7 py-5 text-slate-300">_projects</h2>
+      <div id='about-me__wrapper' className="flex flex-col gap-1">
+        <section className="bg-slate-700 pt-3">
+          <ProjectFilter setTechsFilter={setTechsFilter} />
+        </section>
+        <section id='project-list'>
+          <ul>
+            {
+              projects.map(p => <li>{p.name}</li>)
+            }
+          </ul>
+        </section>
+      </div>
     </>
   );
 };
