@@ -25,7 +25,7 @@ const Projects = () => {
           <ProjectFilter setTechsFilter={setTechsFilter} />
         </section>
         <section id='project-list'>
-          <ul className='pt-3 flex flex-col gap-7'>
+          <ul className='pt-3 pb-7 flex flex-col gap-7'>
             {
               projects.map(p => <li> <ProjectCard project={p}/> </li>)
             }
