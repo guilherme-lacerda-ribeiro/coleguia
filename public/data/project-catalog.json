@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "coleguia",
+    "shortDesc": "_portfolio",
+    "desc": "Online welcome and portfolio.",
+    "thumbnail": "/thumbnails/coleguia.png",
+    "url": "https://github.com/guilherme-lacerda-ribeiro/coleguia",
+    "techs": [1, 2, 8, 6, 5, 3]
+  },
+  {
+    "id": 2,
+    "name": "fitness",
+    "shortDesc": "_gym",
+    "desc": "Self training and plan.",
+    "thumbnail": "/thumbnails/fitness.png",
+    "url": "https://github.com/guilherme-lacerda-ribeiro/fitness",
+    "techs": [8, 6, 2]
+  }
+]

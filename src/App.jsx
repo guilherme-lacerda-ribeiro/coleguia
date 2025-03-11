@@ -11,14 +11,14 @@ function App() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div id='outter' className={`${darkMode && 'dark'} w-screen h-screen p-4 bg-white dark:bg-black text-black dark:text-slate-400`}>
-      <div id='inner' className='size-full flex flex-col justify-between border-1 rounded-lg border-slate-600 bg-slate-950'>
+    <div id='outer' className={`${darkMode && 'dark'} w-screen h-fit min-h-screen p-4 bg-white dark:bg-black text-black dark:text-slate-400`}>
+      <div id='inner' className='min-h-[calc(100vh-2rem)] size-full flex flex-col justify-between border-1 rounded-lg border-slate-600 bg-slate-950'>
         <header className='px-7 py-4 border-b border-slate-600 rounded-t-lg'>
           <Header>
             <MenuIcon open={open} setOpen={setOpen} />
           </Header>
         </header>
-        <main className='relative size-full overflow-hidden'>
+        <main className='relative size-full flex-1 overflow-hidden'>
           <Menu open={open} setOpen={setOpen} setDarkMode={setDarkMode}/>
           <AppRoutes />
         </main>
