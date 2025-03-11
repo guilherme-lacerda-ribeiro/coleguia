@@ -7,5 +7,14 @@
     "thumbnail": "/thumbnails/coleguia.png",
     "url": "https://github.com/guilherme-lacerda-ribeiro/coleguia",
     "techs": ["html", "css", "react", "vite", "tailwind", "javascript"]
+  },
+  {
+    "id": 2,
+    "name": "fitness",
+    "shortDesc": "_gym",
+    "desc": "Self training and plan.",
+    "thumbnail": "/thumbnails/fitness.png",
+    "url": "https://github.com/guilherme-lacerda-ribeiro/fitness",
+    "techs": ["react", "vite", "css"]
   }
 ]

@@ -9,8 +9,8 @@ const ProjectCard = ({ project }) => {
       </div>
 
       <div name='card-wrapper' className="border border-slate-600 rounded-2xl">
-        <div name='card-header' className={`bg-[url(${project.thumbnail})] w-full h-40 bg-cover rounded-t-2xl`}/>
-        {/* <div name='card-header' className={`bg-[url(/thumbnails/coleguia.png)] w-full h-40 bg-cover rounded-t-2xl`}/> */}
+        <div name='card-header' className={`bg-[url(${project.thumbnail})] w-full h-40 bg-cover bg-center rounded-t-2xl`}/>
+        {/* <div name='card-header' className={`bg-[url(/thumbnails/fitness.png)] w-full h-40 bg-cover rounded-t-2xl`}/> */}
         <div name='card-info' className="p-7 flex flex-col gap-7">
           <p className="text-xl">{project.desc}</p>
           <button className="text-slate-50 bg-slate-600 w-fit p-3 rounded-xl">

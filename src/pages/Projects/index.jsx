@@ -20,12 +20,12 @@ const Projects = () => {
   return (
     <>
       <h2 className="px-7 py-5 text-slate-300">_projects</h2>
-      <div id='about-me__wrapper' className="flex flex-col gap-1">
+      <div id='project-wrapper' className="flex flex-col gap-1">
         <section className="bg-slate-700 pt-3">
           <ProjectFilter setTechsFilter={setTechsFilter} />
         </section>
         <section id='project-list'>
-          <ul className='pt-3'>
+          <ul className='pt-3 flex flex-col gap-7'>
             {
               projects.map(p => <li> <ProjectCard project={p}/> </li>)
             }
