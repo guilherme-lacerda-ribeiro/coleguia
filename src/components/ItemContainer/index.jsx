@@ -16,7 +16,7 @@ const ItemContainer = ({title, children}) => {
         {title}
       </h4>
 
-      <div className={`transition-all duration-300 ease-in-out overflow-auto ${sectionOpen ? "max-h-[min(65vh,600px)] opacity-100" : "max-h-0 opacity-0"}`} >
+      <div className={`transition-all duration-300 ease-in-out overflow-auto ${sectionOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0"}`} >
         <ul className="bg-slate-950 p-5 flex flex-col gap-4">
           {children}
         </ul>
