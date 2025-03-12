@@ -1,4 +1,3 @@
-import { useState } from "react";
 import SectionArrow from "../../../components/SectionArrow";
 import Item from "../../../components/Item";
 import Bio from "./Bio";
