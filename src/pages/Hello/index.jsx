@@ -1,6 +1,6 @@
 const Hello = () => {
   return (
-    <div className="size-full bg-[url(/img/hello-bg.png)] bg-no-repeat bg-cover flex flex-col justify-center content-center gap-20 px-8">
+    <div className="min-h-[calc(100vh-9rem)] bg-[url(/img/hello-bg.png)] bg-no-repeat bg-cover flex flex-col justify-center content-center gap-20 px-8">
       <section className="flex flex-col justify-center content-center gap-4">
         <p className="text-xl">
           Hi all. I am
