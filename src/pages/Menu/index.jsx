@@ -24,12 +24,12 @@ const Menu = ({ open, setOpen, setDarkMode }) => {
         <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           <Link onClick={handleLinkClick} to="/projects">_projects</Link>
         </li>
-        <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
+        {/* <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
           <Link onClick={handleLinkClick} to="/contact">_contact-me</Link>
         </li>
         <li className="px-7 pb-4 border-b border-slate-600 text-slate-200">
-          {/* <DarkMode setDarkMode={setDarkMode} /> */}
-        </li>
+          <DarkMode setDarkMode={setDarkMode} />
+        </li> */}
       </ul>
     </nav>
   );
