@@ -16,5 +16,14 @@
     "thumbnail": "/thumbnails/fitness.png",
     "url": "https://github.com/guilherme-lacerda-ribeiro/fitness",
     "techs": [8, 6, 2]
+  },
+  {
+    "id": 3,
+    "name": "appy",
+    "shortDesc": "_landing-page",
+    "desc": "Landing page for a mobile app.",
+    "thumbnail": "/thumbnails/appy.png",
+    "url": "https://github.com/guilherme-lacerda-ribeiro/landing-page-appy",
+    "techs": [1, 5]
   }
 ]
